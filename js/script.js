@@ -31,10 +31,8 @@ const LS = localStorage;
 
 
 form.addEventListener('input', function(event){
-  //console.log(event.target.value);
-  //console.log(event.target.name);
+  
   formData[event.target.name] = event.target.value;
-  //console.log(formData);
   LS.setItem('formData', JSON.stringify(formData));
 });
 //проверим есть ли с таким ключем
@@ -82,13 +80,6 @@ if(!reg2.test(userphone.value)){
 
 alert('Зявку на звонок оставил(а)' + ' '+ username.value + ' ' + '+'+ ' ' + userphone.value);
 });
-
-
-
-
-
-
-
 
 /**page4-------------------------------------------- */
 
