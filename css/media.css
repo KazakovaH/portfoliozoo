@@ -1,0 +1,490 @@
+@media (max-width: 1890px){
+    .main__h2, .main__h2_page4{
+        font-size:40px;
+        width: 70%;
+    }
+}
+
+@media (max-width: 1660px){
+    .main__h2, .main__h2_page4{    
+        top: 30px;
+        font-weight: normal;
+    }
+    .main__h2{
+        font-size:30px;   
+    }
+    .main__h2_page4{
+        font-size: 24px;
+    }
+}
+@media (max-width: 1476px){
+    .main__p{
+        font-size: 24px;
+    }
+    .collapsible{
+        padding: 12px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1440px){
+    .header__list{
+        gap: 90px;
+    }
+    .main{
+        display: block;
+        padding-top: 50px;
+    } 
+    .main__p{
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .main__h2_page4, .main__h2{
+        width: 50%;
+        top: 150px;    
+    }
+    .main__h2{
+        font-size: 52px;
+    }
+    .main__h2_page4{
+        font-size: 48px;   
+    }
+    .main__h1, .main__h1_page2, .main__h1_page3, .main__h1_page4{
+         text-align: center;
+    }
+    .main__image{
+        padding-top: 50px;
+
+    }
+    .slider{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .faq_p{
+        font-size: 22px;
+    }
+}
+@media (max-width: 1280px){
+    .header__list{
+        gap: 60px;
+    }
+    .main{
+        display: block;
+        
+    }
+    .footer__h3{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .list{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1024px){
+.burger{
+    display: flex;
+}
+.header__nav{
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    width: 40%;
+    top: 0;
+    bottom: 0;       
+    right: 0;
+    z-index: 50;
+    overflow-y: auto;
+    background-color: rgba(173, 196, 196, 0.5);
+    
+}
+.header__list{
+    padding: 80px 60px;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.header__link{
+    color: rgb(18, 16, 16);
+}
+.burger span{
+    color: black;
+}
+.box{
+    height: 50px;
+    width: 550px;
+}
+.box_text{
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: bold;
+
+}
+
+@keyframes slide{
+    0%{
+        margin-top: 0;
+    }
+    13%{
+        margin-top: -50px;
+    }
+    25%{
+        margin-top: -100px;       
+    }
+    38%{
+        margin-top: -150px;
+
+    }
+    50%{
+        margin-top: -200px;    
+    }
+    63%{
+        margin-top: -150px;
+    }
+    75%{
+        margin-top: -100px;  
+    }
+    88%{
+        margin-top: -50px;
+
+    }
+    100%{
+        margin-top: 0;   
+    }
+}
+.main__h1, .main__h1_page2, .main__h1_page3, .main__h1_page4{
+    font-size: 48px;
+}
+.main__h2{
+    top: 80px;
+    font-size: 48px;
+}
+.main__h2_page4{
+    font-size: 36px;
+}
+.popup_body{
+    width: 400px;
+}
+.popup_p {
+    font-size: 38px;
+}
+
+}
+@media (max-width: 800px){
+    .main{
+        padding-top: 20px;
+    }
+    .footer{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footer__h3{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .main__h2{
+        font-size: 46px;
+    }
+   /* .main__h2_page4{
+        top: 60px;
+        font-size: 19px;
+    }*/
+    .popup_p{
+        font-size: 30px;
+    }
+}
+@media (max-width: 768px){
+    .main__h1, .main__h1_page2{
+       padding-top: 60px;
+       padding-bottom: 30px; 
+    }
+    .main__h2{
+     font-size: 38px;
+    }
+    .main__h2_page4{
+        top: 80px;
+    }
+    .header__list{
+        padding: 80px 20px;
+    }
+    
+    .box{
+        height: 40px;
+        width: 480px;
+    }
+    .box_text{
+        font-size: 18px;
+        line-height: 40px;
+        font-weight: bold;
+    
+    }
+    
+    @keyframes slide{
+        0%{
+            margin-top: 0;
+        }
+        13%{
+            margin-top: -40px;
+        }
+        25%{
+            margin-top: -80px;       
+        }
+        38%{
+            margin-top: -120px;
+    
+        }
+        50%{
+            margin-top: -160px;    
+        }
+        63%{
+            margin-top: -120px;
+        }
+        75%{
+            margin-top: -80px;  
+        }
+        88%{
+            margin-top: -40px;
+    
+        }
+        100%{
+            margin-top: 0;   
+        }
+}
+@media (max-width: 426px){
+    .header__nav{
+        width: 50%;
+    }
+    .header__logo img, .footer__logo img{
+        width: 55px;
+        height: 55px;
+    }
+    .main__h1, .main__h1_page2, .main__h1_page4{
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: 38px;
+    }
+    .main__h1_page3{
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: 30px; 
+    }
+    .main__p{
+        font-size: 18px;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    .main__h2, .main__h2_page4{
+        font-size: 19px;
+        top: 60px;
+    }
+    .header__link{
+        font-size: 18px;
+    }
+    .collapsible{
+        font-size: 18px;
+        padding: 5px;
+    }
+    .faq_p{
+        font-size: 18px;
+    }
+    .list{
+        font-size: 18px;
+    }
+    .box{
+        height: 30px;
+        width: 300px;
+        margin-top: 50px;
+    }
+    .box_text{
+        font-size: 12px;
+        line-height: 30px;
+        font-weight: bold;
+    
+    }
+    
+    @keyframes slide{
+        0%{
+            margin-top: 0;
+        }
+        13%{
+            margin-top: -30px;
+        }
+        25%{
+            margin-top: -60px;       
+        }
+        38%{
+            margin-top: -90px;
+    
+        }
+        50%{
+            margin-top: -120px;    
+        }
+        63%{
+            margin-top: -90px;
+        }
+        75%{
+            margin-top: -60px;  
+        }
+        88%{
+            margin-top: -30px;
+    
+        }
+        100%{
+            margin-top: 0;   
+        }
+    }
+   .slider{
+        margin: 0 auto;       
+        max-width: 312px;
+        height: 199px;      
+    }  
+    .slider-nav{
+        top: 160px;   
+    }       
+    .footer__h3, span{
+        font-size: 20px;
+    }
+    .popup_btn{
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .popup_body{
+        width: 300px;
+    }
+    .popup_text{
+        font-size: 20px;   
+    }
+    .popup_p{
+        font-size: 20px;
+    }
+    .item img{
+        width: 312px;
+        height: 199px;
+    }
+    .form__p, label, .span, .span2 {
+        font-size: 16px;
+    }
+    .button, input{
+        padding: 5px;
+    }
+    .button{
+        font-size: 16px;
+    } 
+}
+
+@media (max-width: 376px){
+    .main__h1, .main__h1_page2,  .main__h1_page4{
+        font-size: 32px;
+    }
+    .main__h1_page3{
+        font-size: 28px;
+    }
+    .footer__h3 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+    span{
+        font-size: 18px;
+    }
+    .internet img{
+        width: 18px;
+        height: 20px;
+    }
+    .main__h2_page4{
+        top: 50px;
+        font-size: 18px;
+    }
+    .popup_p{
+        font-size: 18px;
+    }
+    .collapsible, .faq_p{
+        font-size: 18px;
+    }
+    .list{
+        font-size: 14px;
+    }
+    
+}
+@media (max-width: 320px){
+    .main__h1, .main__h1_page4{
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: 28px;
+        }
+    .main__h1_page2,.main__h1_page3 {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }  
+    .main__p {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .main__image {
+        padding-top: 30px;
+    }
+    .main__h2 {
+        font-size: 18px;
+        top: 50px;
+    }
+    .main__h2_page4{
+        font-size: 16px;
+        top: 40px;
+    }
+    .box{
+        height: 20px;
+        width: 260px;
+    }
+    .box_text{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    
+    @keyframes slide{
+        0%{
+            margin-top: 0;
+        }
+        13%{
+            margin-top: -20px;
+        }
+        25%{
+            margin-top: -40px;       
+        }
+        38%{
+            margin-top: -60px;
+    
+        }
+        50%{
+            margin-top: -80px;    
+        }
+        63%{
+            margin-top: -60px;
+        }
+        75%{
+            margin-top: -40px;  
+        }
+        88%{
+            margin-top: -20px;
+    
+        }
+        100%{
+            margin-top: 0;   
+        }
+    }
+    .popup_body{
+        width: 200px;
+    }
+    .popup_p{
+        font-size: 14px;
+    }
+    .popup_close{
+        font-size: 20px;
+    }
+    .faq_p{
+        font-size: 16px;
+    }
+    
+}
+}
