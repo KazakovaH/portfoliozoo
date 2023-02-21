@@ -40,11 +40,6 @@ form.addEventListener('input', function(event){
 //проверим есть ли с таким ключем
 if(LS.getItem('formData')){
   formData = JSON.parse(LS.getItem('formData'));
-
-//восстановим  
- // for(let key in formData){
-  //  form.elements[key].value = formData[key];
- // }
   
 }
 
